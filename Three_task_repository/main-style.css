@@ -1,0 +1,207 @@
+@font-face {
+  font-family: Roboto-Regular, sans-serif;
+  src: url('Fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: RobotoMono-Regular, sans-serif;
+  src: url('Fonts/RobotoMono-Regular.ttf');
+}
+
+@font-face {
+  font-family: Montserrat-Regular, sans-serif;
+  src: url('Fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: SFMono-Regular, sans-serif;
+  src: url('Fonts/SFMono-Regular.otf');
+}
+
+body {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background: #f2e8c9;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.head {
+  font-family: Roboto-Regular, sans-serif;
+  font-size: 0.8em;
+  border-bottom: solid 3px black;
+  margin: 10px 10px;
+}
+
+h1 {
+  font-family: Montserrat-Regular, sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 6px 10px;
+}
+
+h2 {
+  font-family: Montserrat-Regular, sans-serif;
+  font-size: 1em;
+  text-align: center;
+  padding: 6px 10px;
+}
+
+h3 {
+  font-family: Roboto-Regular, sans-serif;
+  padding-left: 15px;
+}
+
+.razdeli {
+  height: 850px;
+  width: 1180px;
+  font-family: Montserrat-Regular, sans-serif;
+  font-size: 1em;
+  position: relative;
+  left: 200px;
+}
+
+.HTML {
+  background: linear-gradient(45deg, #4158d0, #c850c0 40%, #ffcc70 90%);
+  border-radius: 24px;
+  columns: 3;
+  column-count: 3;
+  display: inline-block;
+  width: 330px;
+  height: 380px;
+  right: 0;
+  bottom: 0;
+  transition: 0.7s;
+  position: relative;
+  margin: 20px;
+}
+
+.CSS {
+  background: linear-gradient(45deg, #4158d0, #c850c0 40%, #ffcc70 90%);
+  border-radius: 24px;
+  columns: 3;
+  column-count: 3;
+  display: inline-block;
+  width: 330px;
+  height: 380px;
+  right: 0;
+  bottom: 0;
+  transition: 0.7s;
+  position: relative;
+  margin: 20px;
+}
+
+.JS {
+  background: linear-gradient(45deg, #4158d0, #c850c0 40%, #ffcc70 90%);
+  border-radius: 24px;
+  columns: 3;
+  column-count: 3;
+  display: inline-block;
+  width: 330px;
+  height: 380px;
+  right: 0;
+  bottom: 0;
+  transition: 0.7s;
+  position: relative;
+  margin: 20px;
+}
+
+.GitHub {
+  background: linear-gradient(45deg, #4158d0, #c850c0 40%, #ffcc70 90%);
+  border-radius: 24px;
+  columns: 3;
+  display: inline-block;
+  width: 330px;
+  height: 380px;
+  right: 0;
+  bottom: 0;
+  transition: 0.7s;
+  position: relative;
+  margin: 20px;
+}
+
+.Linux {
+  background: linear-gradient(45deg, #4158d0, #c850c0 40%, #ffcc70 90%);
+  border-radius: 24px;
+  columns: 3;
+  column-count: 3;
+  display: inline-block;
+  width: 330px;
+  height: 380px;
+  right: 0;
+  bottom: 0;
+  transition: 0.7s;
+  position: relative;
+  margin: 20px;
+}
+
+div > img {
+  height: 40%;
+  padding-top: 15px;
+}
+
+.HTML:hover {
+  box-shadow: 10px 10px 10px black;
+  right: 10px;
+  bottom: 10px;
+}
+
+.CSS:hover {
+  box-shadow: 10px 10px 10px black;
+  right: 10px;
+  bottom: 10px;
+}
+
+.JS:hover {
+  box-shadow: 10px 10px 10px black;
+  right: 10px;
+  bottom: 10px;
+}
+
+.GitHub:hover {
+  box-shadow: 10px 10px 10px black;
+  right: 10px;
+  bottom: 10px;
+}
+
+.Linux:hover {
+  box-shadow: 10px 10px 10px black;
+  right: 10px;
+  bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo_footer {
+  height: 24px;
+  width: 24px;
+}
+
+footer p {
+  text-align: right;
+  font-size: 0.7em;
+}
+
+footer a {
+  position: absolute;
+  left: 750px;
+  background-color: black;
+  border-radius: 14px;
+  padding: 5px;
+  color: rgb(138, 5, 233);
+}
+
+footer img {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  left: 725px;
+}

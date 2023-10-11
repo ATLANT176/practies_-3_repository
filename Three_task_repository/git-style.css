@@ -1,0 +1,76 @@
+@font-face {
+  font-family: Roboto-Regular, sans-serif;
+  src: url('Fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: SFMono-Regular, sans-serif;
+  src: url('Fonts/SFMono-Regular.otf')
+}
+
+body {
+  font-family: Roboto-Regular, sans-serif;
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 1.7;
+  margin-bottom: 16px;
+  background: lightgray;
+}
+
+strong {
+  background-color: #6d757d;
+  padding: 8px;
+  margin-bottom: 16px;
+  font-family: SFMono-Regular, sans-serif;
+  font-size: 0.85em;
+  color: #24292E;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3::first-letter {
+  color: red;
+}
+
+h2::first-letter {
+  color: red;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+.head {
+  border-bottom: solid 3px black;
+}
+
+.MainPage {
+  color: white;
+  font-size: 20px;
+  background-color: black;
+  padding: 8px;
+  text-decoration: none;
+  border-radius: 20px;
+  position: relative;
+  left: 690px;
+}
+
+footer p {
+  text-align: right;
+  font-size: 14px;
+}
+
+footer a {
+  position: absolute;
+  left: 750px;
+}
+
+footer img {
+  position: relative; 
+  left: 710px;
+  width: 25px;
+  height: 25px;
+}
