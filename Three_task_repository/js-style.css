@@ -6,6 +6,7 @@
 body {
   background-color: darkorange;
   font-family: Roboto-Regular, sans-serif;
+  padding: 50px;
 }
 
 .MainPage {
@@ -16,17 +17,279 @@ body {
   text-decoration: none;
   border-radius: 20px;
   position: relative;
-  left: 690px;
+  left: 870px;
   font-family: Roboto-Regular, sans-serif;
 }
 
-img {
+.MainPage .pagelink {
+  padding: 20px 0;
+}
+
+.logo {
   width: 50px;
   height: 50px;
 }
   
 .head {
   border-bottom: solid 3px black;
+}
+
+
+h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.textbox {
+  display: flex;
+  flex-direction: column;
+}
+
+.printh3 {
+  text-align: center;
+  color: #8a2387;
+  font-size: 40px;
+  border-top: solid 10px black;
+  padding-top: 20px;
+}
+
+.printh {
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  background: linear-gradient(45deg, #8a2387, #e94057, #f27121);
+}
+
+body p {
+  font-size: 22px;
+}
+
+img {
+  border: solid 3px black;
+  border-radius: 24px;
+}
+
+.JSPictureNum {
+  height: 70px;
+  width: 950px;
+}
+
+.JSPictureStr {
+  height: 70px;
+  width: 950px;
+}
+
+.JSPictureStr:last-child {
+  height: 120px;
+  width: 950px;
+}
+
+.JSPictureBool {
+  height: 70px;
+  width: 950px;
+}
+
+.JSPictureUnd {
+  height: 70px;
+  width: 950px;
+}
+
+.JSPictureSymObj {
+  height: 70px;
+  width: 950px;
+}
+
+.JSPictureNull {
+  height: 70px;
+  width: 950px;
+}
+
+.JSPictureBigInt {
+  height: 70px;
+  width: 950px;
+}
+
+.structureparagraph {
+  text-align: center;
+  color: #8a2387;
+  font-size: 40px;
+  border-top: 10px solid black;
+  padding-top: 20px;
+}
+
+.structureh3 {
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 20px;
+  background: linear-gradient(45deg, #8a2387, #e94057, #f27121);
+}
+
+.JSPmassive1 {
+  height: 140px;
+  width: 700px;
+}
+
+.JSPmassive2 {
+  height: 140px;
+  width: 600px;
+}
+
+.JSPmassive3 {
+  height: 100px;
+  width: 950px;
+}
+
+.JSPmassive4 {
+  height: 200px;
+  width: 600px;
+}
+
+.JSPqueue {
+  height: 450px;
+  width: 750px;
+}
+
+.arifmetic {
+  text-align: center;
+  color: #8a2387;
+  font-size: 40px;
+  border-top: 10px solid black;
+  padding-top: 20px;
+}
+
+.arifmtab {
+  border: solid 3px black;
+  font-size: 20px;
+  border-radius: 24px;
+  background: white;
+}
+
+.Math {
+  text-align: center;
+  color: #8a2387;
+  font-size: 40px;
+  border-top: 10px solid black;
+  padding-top: 20px;
+}
+
+.mathh {
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 20px;
+  background: linear-gradient(45deg, #8a2387, #e94057, #f27121);
+}
+
+.mathabs {
+  height: 500px;
+  width: 750px;
+}
+
+.mathfloor {
+  height: 200px;
+  width: 600px;
+}
+
+.mathrandom {
+  height: 350px;
+  width: 600px;
+}
+
+.mathmax {
+  height: 200px;
+  width: 480px;
+}
+
+.mathmin {
+  height: 200px;
+  width: 450px;
+}
+
+.mathtrunc {
+  height: 350px;
+  width: 500px;
+}
+
+.lodash {
+  text-align: center;
+  color: #8a2387;
+  font-size: 40px;
+  border-top: 10px solid black;
+  padding-top: 20px;
+}
+
+.logicoperation {
+  text-align: center;
+  color: #8a2387;
+  font-size: 40px;
+  border-top: 10px solid black;
+  padding-top: 20px;
+}
+
+.logic {
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 20px;
+  background: linear-gradient(45deg, #8a2387, #e94057, #f27121);
+}
+
+.algoritm {
+  text-align: center;
+  color: #8a2387;
+  font-size: 40px;
+  border-top: 10px solid black;
+  padding-top: 20px;
+}
+
+.for,
+.dowhile,
+.while {
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 20px;
+  background: linear-gradient(45deg, #8a2387, #e94057, #f27121);
+}
+
+.JSPfor {
+  height: 300px;
+  width: 600px;
+}
+
+.JSPdowhile {
+  height: 200px;
+  width: 400px;
+}
+
+.JSPwhile {
+  height: 300px;
+  width: 500px;
+}
+
+.function {
+  text-align: center;
+  color: #8a2387;
+  font-size: 40px;
+  border-top: 10px solid black;
+  padding-top: 20px;
+}
+
+.callfunction,
+.arrowfunction,
+.justFunction,
+.importExport {
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 20px;
+  background: linear-gradient(45deg, #8a2387, #e94057, #f27121);
+}
+
+.justfunction2 {
+  height: 131px;
 }
 
 footer p {
@@ -36,12 +299,11 @@ footer p {
   
 footer a {
   position: absolute;
-  left: 750px;
+  left: 100px;
 }
   
 footer img {
   position: relative; 
-  left: 710px;
   width: 25px;
   height: 25px;
 }

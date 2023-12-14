@@ -59,12 +59,13 @@ h3 {
 }
 
 .razdeli {
-  height: 850px;
-  width: 1180px;
   font-family: Montserrat-Regular, sans-serif;
   font-size: 1em;
   position: relative;
-  left: 200px;
+  display: flex;
+  flex-direction: row;
+  flex-flow: nowrap;
+  align-items: center;
 }
 
 .HTML {
@@ -185,14 +186,18 @@ a {
   width: 24px;
 }
 
+footer {
+  margin: 50px 0;
+}
+
 footer p {
   text-align: right;
   font-size: 0.7em;
 }
 
 footer a {
-  position: absolute;
-  left: 750px;
+  position: relative;
+  left: 940px;
   background-color: black;
   border-radius: 14px;
   padding: 5px;
@@ -203,5 +208,5 @@ footer img {
   position: absolute;
   width: 35px;
   height: 35px;
-  left: 725px;
+  left: 910px;
 }
